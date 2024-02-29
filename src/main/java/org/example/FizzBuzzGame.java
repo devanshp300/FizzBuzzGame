@@ -1,7 +1,10 @@
 package org.example;
 
 public class FizzBuzzGame {
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
+    public static String play(int n) {
+        if (n % 3 == 0)
+            return "Fizz";
+        return "";
     }
+
 }
