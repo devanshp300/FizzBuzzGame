@@ -7,5 +7,6 @@ public class FizzBuzzTest {
     public void testFizzBuzz_3_ReturnsFizz() {
         assertEquals("Fizz", FizzBuzzGame.play(3));
     }
+    //
 }
 
