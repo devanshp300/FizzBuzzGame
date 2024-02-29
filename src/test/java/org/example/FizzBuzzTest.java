@@ -8,6 +8,8 @@ public class FizzBuzzTest {
     public void testFizzBuzz_3_ReturnsFizz() {
         assertEquals("Fizz", FizzBuzzGame.play(3));
         assertEquals("Buzz", FizzBuzzGame.play(5));
+        assertEquals("FizzBuzz", FizzBuzzGame.play(15));
+
     }
     //
 
